@@ -5,7 +5,7 @@ import path from 'path';
 import { spawnSync } from 'child_process';
 import zlib from 'zlib';
 import onDeath from 'death';
-import fetch from 'node-fetch';
+import fetch from 'fetch-with-proxy';
 import retry from 'async-retry';
 import which from 'which-promise';
 import readPkg from 'read-pkg';
